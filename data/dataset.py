@@ -7,12 +7,13 @@ from torch.utils.data import Dataset
 
 
 class Cub2011(Dataset):
-    base_folder = 'CUB_200_2011/images'
-    url = 'https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz?download=1'
-    filename = 'CUB_200_2011.tgz'
-    tgz_md5 = '97eceeb196236b17998738112f37df78'
-
-    def __init__(self, root, train=True, transform=None, loader=default_loader, download = False):
+    def __init__(self, root, train = True, transform = None, download = False):
+        # Hardcoded variables
+        self.base_folder = 'CUB_200_2011/images'
+        self.url = 'https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz?download=1'
+        self.filename = 'CUB_200_2011.tgz'
+        self.tgz_md5 = '97eceeb196236b17998738112f37df78'
+        
         self.root = os.path.expanduser(root)
         self.transform = transform
         self.loader = default_loader
@@ -64,8 +65,16 @@ class Cub2011(Dataset):
         print("Downloading data")
         download_url(self.url, self.root, self.filename, self.tgz_md5)
 
-        with tarfile.open(os.path.join(self.root, self.filename), "r:gz") as tar:
+        archive_path = os.path.join(self.root, self.filename)
+        with tarfile.open(archive_path, "r:gz") as tar:
             tar.extractall(path=self.root)
+
+        # Clean up the downloaded archive
+        try:
+            os.remove(archive_path)
+            print(f"Removed archive file: {archive_path}")
+        except OSError as e:
+            print(f"Warning: could not remove archive file {archive_path}: {e}")
 
         print("Finished data download")
 
