@@ -10,12 +10,10 @@ def parse_arguments():
 
     return parser.parse_args()
 
-
 def main(arguments):
     # Initialize the dataloader
     dataset = Cub2011("./data", download=arguments.download_data)
     
-
 if __name__ == "__main__":
     arguments = parse_arguments()
     main(arguments)

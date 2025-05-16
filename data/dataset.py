@@ -8,7 +8,7 @@ from torch.utils.data import Dataset
 
 class Cub2011(Dataset):
     base_folder = 'CUB_200_2011/images'
-    url = 'http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz'
+    url = 'https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz?download=1'
     filename = 'CUB_200_2011.tgz'
     tgz_md5 = '97eceeb196236b17998738112f37df78'
 
@@ -42,6 +42,7 @@ class Cub2011(Dataset):
             self.data = self.data[self.data.is_training_img == 0]
 
     def _check_integrity(self):
+        print("Checking data integrity")
         try:
             self._load_metadata()
         except Exception:
@@ -52,6 +53,7 @@ class Cub2011(Dataset):
             if not os.path.isfile(filepath):
                 print(filepath)
                 return False
+        print("Finished data integrity checking")
         return True
 
     def _download(self):
@@ -64,6 +66,8 @@ class Cub2011(Dataset):
 
         with tarfile.open(os.path.join(self.root, self.filename), "r:gz") as tar:
             tar.extractall(path=self.root)
+
+        print("Finished data download")
 
     def __len__(self):
         return len(self.data)

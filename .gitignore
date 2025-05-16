@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Data related
+/data/CUB_200_2011.tgz
+/data/CUB_200_2011
+/data/attributes.txt
