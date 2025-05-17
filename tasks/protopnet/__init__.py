@@ -1,0 +1,1 @@
+from tasks.protopnet.task import run_protopnet

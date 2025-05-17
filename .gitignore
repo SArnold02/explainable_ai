@@ -177,3 +177,6 @@ cython_debug/
 /data/CUB_200_2011.tgz
 /data/CUB_200_2011
 /data/attributes.txt
+
+# Training metric
+/outputs

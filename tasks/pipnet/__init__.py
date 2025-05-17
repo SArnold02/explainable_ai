@@ -1,0 +1,1 @@
+from tasks.pipnet.task import run_pipnet

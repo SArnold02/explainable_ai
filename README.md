@@ -5,7 +5,7 @@
 - Clone the repo
 - Create a python environment, venv example:
     ``` sh
-    python -m venve ./.venv
+    python -m venv ./.venv
     ```
 - Load the created environment, venv example:
     ``` sh
