@@ -23,6 +23,7 @@ def parse_arguments():
     parser.add_argument("--print_every", type=int, default=100)
     parser.add_argument("--output_path", type=str, default="./outputs")
     parser.add_argument("--patience", type=int, default=5)
+    parser.add_argument("--lr_schedule", type=int, default=10)
 
     return parser.parse_args()
 

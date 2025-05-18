@@ -29,6 +29,7 @@ class Trainer(torch.nn.Module):
         self.batch_size = arguments.batch_size
         self.device = arguments.device if arguments.device is not None else ("cuda" if torch.cuda.is_available() else "cpu")
         self.patience = arguments.patience
+        self.lr_schedule = arguments.lr_schedule
 
         # Move model to device
         self.model.to(self.device)
@@ -111,7 +112,7 @@ class Trainer(torch.nn.Module):
         self.logger.info("Starting the training")
 
         # Setup lr scheduler
-        scheduler = StepLR(self.optimizer, step_size=20, gamma=0.1)
+        scheduler = StepLR(self.optimizer, step_size=self.lr_schedule, gamma=0.1)
 
         best_val_acc = -1
         epochs_no_improve = 0
