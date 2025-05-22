@@ -1,6 +1,8 @@
+import kagglehub
 import argparse
-from data.dataset import Cub2011
+from data.dataset import Cub2011, DEFAULT_TRAIN_TRANSFORM, DEFAULT_VAL_TRANSFORM
 from tasks import run_task, Task
+from torchvision.datasets import StanfordCars
 
 
 def parse_arguments():
@@ -9,8 +11,12 @@ def parse_arguments():
 
     # Choose the task
     parser.add_argument("--task", type=Task, choices=list(Task), default=Task.BASELINE)
+    parser.add_argument("--train_run", action="store_true")
 
     # Training and data arguments
+    parser.add_argument("--dataset", type=str, default="cub")
+    parser.add_argument("--checkpoint", type=str, default=None)
+
     parser.add_argument("--download_data", action="store_true")
     parser.add_argument("--batch_size", type=int, default=8)
     parser.add_argument("--num_workers", type=int, default=0)
@@ -27,15 +33,39 @@ def parse_arguments():
 
     return parser.parse_args()
 
+
+def add_dataset_parameters(arguments):
+    match arguments.dataset:
+        case "cub":
+            arguments.num_classes = 200
+        case "cars":
+            arguments.num_classes = 196
+        case _:
+            raise ValueError(f"Dataset {arguments.dataset} is not supported! ('cub' or 'cars')")
+
+
 def main(arguments):
     # Initialize the datasets
-    train_dataset = Cub2011(train=True, download=arguments.download_data)
-    val_dataset = Cub2011(train=False)
-    
+    if arguments.dataset == "cub":
+        train_dataset = Cub2011(train=True, download=arguments.download_data)
+        val_dataset = Cub2011(train=False)
+    else:
+        if arguments.download_data:
+            print("Downloading Stanford Cars dataset")
+            path = kagglehub.dataset_download("rickyyyyyyy/torchvision-stanford-cars", "./data")
+
+        train_dataset = StanfordCars(
+            root="./data",
+            split="train",
+            transform=DEFAULT_TRAIN_TRANSFORM
+        )
+        val_dataset = StanfordCars(root="./data", split="test", transform=DEFAULT_VAL_TRANSFORM)
+
     # Choose the task and run it
     run_task(arguments, train_dataset, val_dataset)
 
 
 if __name__ == "__main__":
     arguments = parse_arguments()
+    add_dataset_parameters(arguments)
     main(arguments)

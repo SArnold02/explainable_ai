@@ -78,6 +78,9 @@ class Cub2011(Dataset):
         # Check if the files are present
         print("Checking data integrity")
 
+        if not hasattr(self, "data"):
+            return False
+
         base = os.path.join(self.root, self.base_folder)
         for _, row in self.data.iterrows():
             path = os.path.join(base, row.filepath)

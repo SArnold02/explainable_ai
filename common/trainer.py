@@ -14,9 +14,9 @@ class Trainer(torch.nn.Module):
     def __init__(
         self,
         model: nn.Module,
-        train_dataset: Dataset,
         arguments: Namespace,
-        val_dataset: Dataset = None,
+        train_dataset: Dataset | None = None,
+        val_dataset: Dataset | None = None,
         optimizer: optim.Optimizer | None = None,
         criterion: torch.nn.Module | None = None,
     ):
@@ -48,11 +48,15 @@ class Trainer(torch.nn.Module):
         self.criterion = criterion if criterion is not None else nn.CrossEntropyLoss()
 
         # Prepare data loaders
-        self.train_loader = DataLoader(
-            self.train_dataset,
-            batch_size=self.batch_size,
-            shuffle=True,
-            num_workers=arguments.num_workers,
+        self.train_loader = (
+            DataLoader(
+                self.train_dataset,
+                batch_size=self.batch_size,
+                shuffle=True,
+                num_workers=arguments.num_workers,
+            )
+            if self.train_dataset is not None
+            else None
         )
         self.val_loader = (
             DataLoader(
@@ -82,7 +86,7 @@ class Trainer(torch.nn.Module):
         self.logger.addHandler(ch)
 
         # File handler
-        log_path = self.output_path + "training.log"
+        log_path = self.output_path + "run.log"
         fh = logging.FileHandler(log_path)
         fh.setLevel(logging.INFO)
         fh.setFormatter(formatter)
@@ -110,6 +114,9 @@ class Trainer(torch.nn.Module):
     ):
         """Runs the training loop for a specified number of epochs."""
         self.logger.info("Starting the training")
+
+        # Check if the training loader is initialized
+        assert self.train_loader is not None, "Training loader is not initialized"
 
         # Setup lr scheduler
         scheduler = StepLR(self.optimizer, step_size=self.lr_schedule, gamma=0.1)
@@ -210,7 +217,7 @@ class Trainer(torch.nn.Module):
             for idx, (inputs, targets) in enumerate(self.val_loader):
                 if idx % print_every == 0:
                     self.logger.info(
-                        f"Validation step: {idx}/{len(self.train_loader)} | {(idx/len(self.train_loader) * 100):.2f} %"
+                        f"Validation step: {idx}/{len(self.val_loader)} | {(idx/len(self.val_loader) * 100):.2f} %"
                     )
                 
                 # Put the target to the target device

@@ -19,7 +19,7 @@
 
 ## Data
 
-We use the CUB-200 dataset, in order to download it, use the --download_data flag, when running the main.py
+We use the CUB-200 and Stanford Cars dataset, in order to download it, use the --download_data flag, when running the main.py
 
 ## Getting the pre-trained ResNet
 
