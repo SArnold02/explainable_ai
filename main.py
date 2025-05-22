@@ -52,7 +52,7 @@ def main(arguments):
     else:
         if arguments.download_data:
             print("Downloading Stanford Cars dataset")
-            path = kagglehub.dataset_download("rickyyyyyyy/torchvision-stanford-cars", "./data")
+            kagglehub.dataset_download("rickyyyyyyy/torchvision-stanford-cars", "./data")
 
         train_dataset = StanfordCars(
             root="./data",
