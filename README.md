@@ -20,3 +20,13 @@
 ## Data
 
 We use the CUB-200 dataset, in order to download it, use the --download_data flag, when running the main.py
+
+## Getting the pre-trained ResNet
+
+The checkpoint is uploaded with git lfs, to get it, follow the steps:
+
+- sudo apt-get install git-lfs
+
+- git lfs install
+
+- git lfs fetch --all
