@@ -1,0 +1,856 @@
+25-05-23 09:57:35 - INFO - Starting the training
+25-05-23 09:57:35 - INFO - Epoch 1/95 | Training step: 0/509 | 0.00 %
+25-05-23 09:57:54 - INFO - Epoch 1/95 | Training step: 50/509 | 9.82 %
+25-05-23 09:58:10 - INFO - Epoch 1/95 | Training step: 100/509 | 19.65 %
+25-05-23 09:58:25 - INFO - Epoch 1/95 | Training step: 150/509 | 29.47 %
+25-05-23 09:58:41 - INFO - Epoch 1/95 | Training step: 200/509 | 39.29 %
+25-05-23 09:58:57 - INFO - Epoch 1/95 | Training step: 250/509 | 49.12 %
+25-05-23 09:59:13 - INFO - Epoch 1/95 | Training step: 300/509 | 58.94 %
+25-05-23 09:59:29 - INFO - Epoch 1/95 | Training step: 350/509 | 68.76 %
+25-05-23 09:59:51 - INFO - Epoch 1/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:00:13 - INFO - Epoch 1/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:00:32 - INFO - Epoch 1/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:00:38 - INFO - Epoch 1/95 | Train Loss: 4.9948 | Train Acc: 0.0457
+25-05-23 10:00:38 - INFO - Starting the validation
+25-05-23 10:00:39 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:00:46 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:00:52 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:01:04 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:01:11 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:01:17 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:01:24 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:01:38 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:01:45 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:01:56 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:02:05 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:02:06 - INFO - Validation Loss: 3.9875 | Validation Acc: 0.1694
+25-05-23 10:02:06 - INFO - Epoch 2/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:02:29 - INFO - Epoch 2/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:02:57 - INFO - Epoch 2/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:03:20 - INFO - Epoch 2/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:03:42 - INFO - Epoch 2/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:04:06 - INFO - Epoch 2/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:04:37 - INFO - Epoch 2/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:05:00 - INFO - Epoch 2/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:05:28 - INFO - Epoch 2/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:05:54 - INFO - Epoch 2/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:06:19 - INFO - Epoch 2/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:06:22 - INFO - Epoch 2/95 | Train Loss: 3.8060 | Train Acc: 0.2128
+25-05-23 10:06:22 - INFO - Starting the validation
+25-05-23 10:06:23 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:06:35 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:06:43 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:06:51 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:07:10 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:07:17 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:07:34 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:07:42 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:07:50 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:07:57 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:08:17 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:08:18 - INFO - Validation Loss: 2.7984 | Validation Acc: 0.3847
+25-05-23 10:08:18 - INFO - Epoch 3/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:08:45 - INFO - Epoch 3/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:09:21 - INFO - Epoch 3/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:09:46 - INFO - Epoch 3/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:10:18 - INFO - Epoch 3/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:10:46 - INFO - Epoch 3/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:11:17 - INFO - Epoch 3/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:11:50 - INFO - Epoch 3/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:12:15 - INFO - Epoch 3/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:12:52 - INFO - Epoch 3/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:13:17 - INFO - Epoch 3/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:13:28 - INFO - Epoch 3/95 | Train Loss: 2.9254 | Train Acc: 0.3948
+25-05-23 10:13:28 - INFO - Starting the validation
+25-05-23 10:13:29 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:13:35 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:13:51 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:13:57 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:14:12 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:14:19 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:14:36 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:14:45 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:14:57 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:15:12 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:15:19 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:15:19 - INFO - Validation Loss: 1.9693 | Validation Acc: 0.5803
+25-05-23 10:15:19 - INFO - Epoch 4/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:15:49 - INFO - Epoch 4/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:16:25 - INFO - Epoch 4/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:16:53 - INFO - Epoch 4/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:17:23 - INFO - Epoch 4/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:17:56 - INFO - Epoch 4/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:18:22 - INFO - Epoch 4/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:18:56 - INFO - Epoch 4/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:19:29 - INFO - Epoch 4/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:19:57 - INFO - Epoch 4/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:20:28 - INFO - Epoch 4/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:20:34 - INFO - Epoch 4/95 | Train Loss: 2.3040 | Train Acc: 0.5312
+25-05-23 10:20:34 - INFO - Starting the validation
+25-05-23 10:20:34 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:20:41 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:20:57 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:21:03 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:21:21 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:21:27 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:21:42 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:21:48 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:22:04 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:22:14 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:22:24 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:22:25 - INFO - Validation Loss: 1.4178 | Validation Acc: 0.6824
+25-05-23 10:22:25 - INFO - Epoch 5/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:22:53 - INFO - Epoch 5/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:23:29 - INFO - Epoch 5/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:23:54 - INFO - Epoch 5/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:24:25 - INFO - Epoch 5/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:24:56 - INFO - Epoch 5/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:25:24 - INFO - Epoch 5/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:25:58 - INFO - Epoch 5/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:26:23 - INFO - Epoch 5/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:26:57 - INFO - Epoch 5/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:27:29 - INFO - Epoch 5/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:27:32 - INFO - Epoch 5/95 | Train Loss: 1.8668 | Train Acc: 0.6148
+25-05-23 10:27:32 - INFO - Starting the validation
+25-05-23 10:27:33 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:27:39 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:27:55 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:28:04 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:28:17 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:28:32 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:28:38 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:28:56 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:29:02 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:29:18 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:29:25 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:29:26 - INFO - Validation Loss: 1.1701 | Validation Acc: 0.7264
+25-05-23 10:29:27 - INFO - Epoch 6/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:29:57 - INFO - Epoch 6/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:30:31 - INFO - Epoch 6/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:30:57 - INFO - Epoch 6/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:31:31 - INFO - Epoch 6/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:32:01 - INFO - Epoch 6/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:32:31 - INFO - Epoch 6/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:33:05 - INFO - Epoch 6/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:33:34 - INFO - Epoch 6/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:34:04 - INFO - Epoch 6/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:34:38 - INFO - Epoch 6/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:34:41 - INFO - Epoch 6/95 | Train Loss: 1.5640 | Train Acc: 0.6776
+25-05-23 10:34:41 - INFO - Starting the validation
+25-05-23 10:34:42 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:34:48 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:35:06 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:35:12 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:35:28 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:35:42 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:35:51 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:36:04 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:36:14 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:36:29 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:36:35 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:36:36 - INFO - Validation Loss: 0.9444 | Validation Acc: 0.7785
+25-05-23 10:36:36 - INFO - Epoch 7/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:37:11 - INFO - Epoch 7/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:37:44 - INFO - Epoch 7/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:38:11 - INFO - Epoch 7/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:38:40 - INFO - Epoch 7/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:39:13 - INFO - Epoch 7/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:39:40 - INFO - Epoch 7/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:40:14 - INFO - Epoch 7/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:40:47 - INFO - Epoch 7/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:41:14 - INFO - Epoch 7/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:41:48 - INFO - Epoch 7/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:41:51 - INFO - Epoch 7/95 | Train Loss: 1.3685 | Train Acc: 0.7224
+25-05-23 10:41:51 - INFO - Starting the validation
+25-05-23 10:41:52 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:41:58 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:42:17 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:42:23 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:42:42 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:42:49 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:43:05 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:43:12 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:43:29 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:43:36 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:43:52 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:43:53 - INFO - Validation Loss: 0.8456 | Validation Acc: 0.8041
+25-05-23 10:43:53 - INFO - Epoch 8/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:44:20 - INFO - Epoch 8/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:44:54 - INFO - Epoch 8/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:45:24 - INFO - Epoch 8/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:45:54 - INFO - Epoch 8/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:46:28 - INFO - Epoch 8/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:46:54 - INFO - Epoch 8/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:47:29 - INFO - Epoch 8/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:47:55 - INFO - Epoch 8/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:48:32 - INFO - Epoch 8/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:49:00 - INFO - Epoch 8/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:49:07 - INFO - Epoch 8/95 | Train Loss: 1.2298 | Train Acc: 0.7455
+25-05-23 10:49:07 - INFO - Starting the validation
+25-05-23 10:49:08 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:49:18 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:49:35 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:49:41 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:49:56 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:50:06 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:50:21 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:50:35 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:50:42 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:50:58 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:51:07 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:51:08 - INFO - Validation Loss: 0.7203 | Validation Acc: 0.8210
+25-05-23 10:51:09 - INFO - Epoch 9/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:51:39 - INFO - Epoch 9/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:52:14 - INFO - Epoch 9/95 | Training step: 100/509 | 19.65 %
+25-05-23 10:52:39 - INFO - Epoch 9/95 | Training step: 150/509 | 29.47 %
+25-05-23 10:53:14 - INFO - Epoch 9/95 | Training step: 200/509 | 39.29 %
+25-05-23 10:53:47 - INFO - Epoch 9/95 | Training step: 250/509 | 49.12 %
+25-05-23 10:54:16 - INFO - Epoch 9/95 | Training step: 300/509 | 58.94 %
+25-05-23 10:54:48 - INFO - Epoch 9/95 | Training step: 350/509 | 68.76 %
+25-05-23 10:55:21 - INFO - Epoch 9/95 | Training step: 400/509 | 78.59 %
+25-05-23 10:55:48 - INFO - Epoch 9/95 | Training step: 450/509 | 88.41 %
+25-05-23 10:56:21 - INFO - Epoch 9/95 | Training step: 500/509 | 98.23 %
+25-05-23 10:56:24 - INFO - Epoch 9/95 | Train Loss: 1.0736 | Train Acc: 0.7775
+25-05-23 10:56:24 - INFO - Starting the validation
+25-05-23 10:56:24 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 10:56:39 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 10:56:54 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 10:57:02 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 10:57:18 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 10:57:24 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 10:57:42 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 10:57:49 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 10:58:03 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 10:58:18 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 10:58:27 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 10:58:27 - INFO - Validation Loss: 0.6659 | Validation Acc: 0.8355
+25-05-23 10:58:28 - INFO - Epoch 10/95 | Training step: 0/509 | 0.00 %
+25-05-23 10:59:02 - INFO - Epoch 10/95 | Training step: 50/509 | 9.82 %
+25-05-23 10:59:29 - INFO - Epoch 10/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:00:03 - INFO - Epoch 10/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:00:39 - INFO - Epoch 10/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:01:04 - INFO - Epoch 10/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:01:41 - INFO - Epoch 10/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:02:07 - INFO - Epoch 10/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:02:42 - INFO - Epoch 10/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:03:17 - INFO - Epoch 10/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:03:45 - INFO - Epoch 10/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:03:49 - INFO - Epoch 10/95 | Train Loss: 0.9777 | Train Acc: 0.7937
+25-05-23 11:03:49 - INFO - Starting the validation
+25-05-23 11:03:49 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:04:03 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:04:18 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:04:25 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:04:37 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:04:50 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:05:07 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:05:13 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:05:26 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:05:38 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:05:56 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:05:56 - INFO - Validation Loss: 0.6391 | Validation Acc: 0.8422
+25-05-23 11:05:56 - INFO - Epoch 11/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:06:22 - INFO - Epoch 11/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:06:57 - INFO - Epoch 11/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:07:32 - INFO - Epoch 11/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:07:58 - INFO - Epoch 11/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:08:34 - INFO - Epoch 11/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:09:07 - INFO - Epoch 11/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:09:36 - INFO - Epoch 11/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:10:12 - INFO - Epoch 11/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:10:39 - INFO - Epoch 11/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:11:16 - INFO - Epoch 11/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:11:19 - INFO - Epoch 11/95 | Train Loss: 0.8115 | Train Acc: 0.8387
+25-05-23 11:11:19 - INFO - Starting the validation
+25-05-23 11:11:20 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:11:36 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:11:42 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:11:59 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:12:09 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:12:21 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:12:32 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:12:45 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:12:55 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:13:09 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:13:24 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:13:24 - INFO - Validation Loss: 0.5111 | Validation Acc: 0.8730
+25-05-23 11:13:24 - INFO - Epoch 12/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:13:51 - INFO - Epoch 12/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:14:25 - INFO - Epoch 12/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:14:55 - INFO - Epoch 12/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:15:28 - INFO - Epoch 12/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:16:04 - INFO - Epoch 12/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:16:29 - INFO - Epoch 12/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:17:06 - INFO - Epoch 12/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:17:33 - INFO - Epoch 12/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:18:06 - INFO - Epoch 12/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:18:41 - INFO - Epoch 12/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:18:44 - INFO - Epoch 12/95 | Train Loss: 0.7696 | Train Acc: 0.8491
+25-05-23 11:18:44 - INFO - Starting the validation
+25-05-23 11:18:45 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:18:51 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:19:12 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:19:18 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:19:36 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:19:42 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:19:58 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:20:13 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:20:20 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:20:36 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:20:43 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:20:43 - INFO - Validation Loss: 0.4968 | Validation Acc: 0.8780
+25-05-23 11:20:44 - INFO - Epoch 13/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:21:20 - INFO - Epoch 13/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:21:55 - INFO - Epoch 13/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:22:21 - INFO - Epoch 13/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:22:56 - INFO - Epoch 13/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:23:25 - INFO - Epoch 13/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:23:57 - INFO - Epoch 13/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:24:33 - INFO - Epoch 13/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:24:59 - INFO - Epoch 13/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:25:35 - INFO - Epoch 13/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:26:11 - INFO - Epoch 13/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:26:14 - INFO - Epoch 13/95 | Train Loss: 0.7595 | Train Acc: 0.8538
+25-05-23 11:26:14 - INFO - Starting the validation
+25-05-23 11:26:15 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:26:21 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:26:41 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:26:47 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:27:05 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:27:11 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:27:27 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:27:40 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:27:49 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:28:06 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:28:13 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:28:14 - INFO - Validation Loss: 0.4961 | Validation Acc: 0.8778
+25-05-23 11:28:14 - INFO - Epoch 14/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:28:44 - INFO - Epoch 14/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:29:20 - INFO - Epoch 14/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:29:51 - INFO - Epoch 14/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:30:21 - INFO - Epoch 14/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:30:56 - INFO - Epoch 14/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:31:25 - INFO - Epoch 14/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:31:59 - INFO - Epoch 14/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:32:29 - INFO - Epoch 14/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:33:01 - INFO - Epoch 14/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:33:29 - INFO - Epoch 14/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:33:42 - INFO - Epoch 14/95 | Train Loss: 0.7285 | Train Acc: 0.8584
+25-05-23 11:33:42 - INFO - Starting the validation
+25-05-23 11:33:43 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:33:49 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:34:05 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:34:12 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:34:29 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:34:44 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:34:51 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:35:09 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:35:15 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:35:32 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:35:38 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:35:39 - INFO - Validation Loss: 0.4841 | Validation Acc: 0.8781
+25-05-23 11:35:39 - INFO - Epoch 15/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:36:16 - INFO - Epoch 15/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:36:44 - INFO - Epoch 15/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:37:21 - INFO - Epoch 15/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:37:47 - INFO - Epoch 15/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:38:24 - INFO - Epoch 15/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:38:54 - INFO - Epoch 15/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:39:26 - INFO - Epoch 15/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:40:02 - INFO - Epoch 15/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:40:31 - INFO - Epoch 15/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:40:59 - INFO - Epoch 15/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:41:11 - INFO - Epoch 15/95 | Train Loss: 0.7347 | Train Acc: 0.8579
+25-05-23 11:41:11 - INFO - Starting the validation
+25-05-23 11:41:12 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:41:18 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:41:31 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:41:45 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:42:00 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:42:07 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:42:23 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:42:30 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:42:48 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:43:00 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:43:10 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:43:11 - INFO - Validation Loss: 0.4769 | Validation Acc: 0.8806
+25-05-23 11:43:11 - INFO - Epoch 16/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:43:42 - INFO - Epoch 16/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:44:18 - INFO - Epoch 16/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:44:48 - INFO - Epoch 16/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:45:19 - INFO - Epoch 16/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:45:56 - INFO - Epoch 16/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:46:22 - INFO - Epoch 16/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:47:00 - INFO - Epoch 16/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:47:28 - INFO - Epoch 16/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:48:06 - INFO - Epoch 16/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:48:31 - INFO - Epoch 16/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:48:45 - INFO - Epoch 16/95 | Train Loss: 0.7353 | Train Acc: 0.8612
+25-05-23 11:48:45 - INFO - Starting the validation
+25-05-23 11:48:45 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:48:51 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:49:08 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:49:14 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:49:33 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:49:39 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:49:58 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:50:05 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:50:22 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:50:29 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:50:45 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:50:46 - INFO - Validation Loss: 0.4746 | Validation Acc: 0.8822
+25-05-23 11:50:46 - INFO - Epoch 17/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:51:15 - INFO - Epoch 17/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:51:51 - INFO - Epoch 17/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:52:23 - INFO - Epoch 17/95 | Training step: 150/509 | 29.47 %
+25-05-23 11:52:54 - INFO - Epoch 17/95 | Training step: 200/509 | 39.29 %
+25-05-23 11:53:30 - INFO - Epoch 17/95 | Training step: 250/509 | 49.12 %
+25-05-23 11:53:56 - INFO - Epoch 17/95 | Training step: 300/509 | 58.94 %
+25-05-23 11:54:32 - INFO - Epoch 17/95 | Training step: 350/509 | 68.76 %
+25-05-23 11:55:03 - INFO - Epoch 17/95 | Training step: 400/509 | 78.59 %
+25-05-23 11:55:35 - INFO - Epoch 17/95 | Training step: 450/509 | 88.41 %
+25-05-23 11:56:11 - INFO - Epoch 17/95 | Training step: 500/509 | 98.23 %
+25-05-23 11:56:14 - INFO - Epoch 17/95 | Train Loss: 0.7090 | Train Acc: 0.8600
+25-05-23 11:56:14 - INFO - Starting the validation
+25-05-23 11:56:14 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 11:56:21 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 11:56:40 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 11:56:48 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 11:57:03 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 11:57:18 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 11:57:26 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 11:57:44 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 11:57:50 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 11:58:06 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 11:58:16 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 11:58:17 - INFO - Validation Loss: 0.4654 | Validation Acc: 0.8822
+25-05-23 11:58:18 - INFO - Epoch 18/95 | Training step: 0/509 | 0.00 %
+25-05-23 11:58:49 - INFO - Epoch 18/95 | Training step: 50/509 | 9.82 %
+25-05-23 11:59:22 - INFO - Epoch 18/95 | Training step: 100/509 | 19.65 %
+25-05-23 11:59:52 - INFO - Epoch 18/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:00:23 - INFO - Epoch 18/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:00:57 - INFO - Epoch 18/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:01:33 - INFO - Epoch 18/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:01:58 - INFO - Epoch 18/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:02:35 - INFO - Epoch 18/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:03:02 - INFO - Epoch 18/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:03:37 - INFO - Epoch 18/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:03:40 - INFO - Epoch 18/95 | Train Loss: 0.6985 | Train Acc: 0.8638
+25-05-23 12:03:40 - INFO - Starting the validation
+25-05-23 12:03:41 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:03:57 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:04:04 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:04:20 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:04:29 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:04:44 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:04:51 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:05:08 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:05:21 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:05:30 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:05:43 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:05:45 - INFO - Validation Loss: 0.4640 | Validation Acc: 0.8833
+25-05-23 12:05:45 - INFO - Epoch 19/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:06:14 - INFO - Epoch 19/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:06:50 - INFO - Epoch 19/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:07:24 - INFO - Epoch 19/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:07:53 - INFO - Epoch 19/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:08:30 - INFO - Epoch 19/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:08:56 - INFO - Epoch 19/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:09:34 - INFO - Epoch 19/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:10:02 - INFO - Epoch 19/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:10:39 - INFO - Epoch 19/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:11:07 - INFO - Epoch 19/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:11:19 - INFO - Epoch 19/95 | Train Loss: 0.6883 | Train Acc: 0.8678
+25-05-23 12:11:19 - INFO - Starting the validation
+25-05-23 12:11:19 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:11:26 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:11:44 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:11:51 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:12:08 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:12:14 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:12:31 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:12:37 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:12:55 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:13:07 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:13:16 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:13:17 - INFO - Validation Loss: 0.4600 | Validation Acc: 0.8848
+25-05-23 12:13:17 - INFO - Epoch 20/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:13:48 - INFO - Epoch 20/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:14:24 - INFO - Epoch 20/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:14:54 - INFO - Epoch 20/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:15:25 - INFO - Epoch 20/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:16:00 - INFO - Epoch 20/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:16:28 - INFO - Epoch 20/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:17:03 - INFO - Epoch 20/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:17:38 - INFO - Epoch 20/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:18:05 - INFO - Epoch 20/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:18:41 - INFO - Epoch 20/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:18:45 - INFO - Epoch 20/95 | Train Loss: 0.6700 | Train Acc: 0.8692
+25-05-23 12:18:45 - INFO - Starting the validation
+25-05-23 12:18:46 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:18:59 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:19:08 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:19:25 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:19:32 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:19:48 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:19:55 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:20:13 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:20:23 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:20:35 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:20:52 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:20:52 - INFO - Validation Loss: 0.4616 | Validation Acc: 0.8845
+25-05-23 12:20:53 - INFO - Epoch 21/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:21:20 - INFO - Epoch 21/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:21:56 - INFO - Epoch 21/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:22:23 - INFO - Epoch 21/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:22:59 - INFO - Epoch 21/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:23:34 - INFO - Epoch 21/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:24:01 - INFO - Epoch 21/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:24:38 - INFO - Epoch 21/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:25:03 - INFO - Epoch 21/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:25:40 - INFO - Epoch 21/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:26:12 - INFO - Epoch 21/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:26:18 - INFO - Epoch 21/95 | Train Loss: 0.6345 | Train Acc: 0.8777
+25-05-23 12:26:18 - INFO - Starting the validation
+25-05-23 12:26:19 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:26:25 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:26:45 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:26:51 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:27:09 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:27:18 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:27:34 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:27:40 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:27:57 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:28:03 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:28:22 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:28:23 - INFO - Validation Loss: 0.4572 | Validation Acc: 0.8871
+25-05-23 12:28:23 - INFO - Epoch 22/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:28:51 - INFO - Epoch 22/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:29:27 - INFO - Epoch 22/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:29:59 - INFO - Epoch 22/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:30:29 - INFO - Epoch 22/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:31:06 - INFO - Epoch 22/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:31:31 - INFO - Epoch 22/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:32:07 - INFO - Epoch 22/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:32:42 - INFO - Epoch 22/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:33:09 - INFO - Epoch 22/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:33:45 - INFO - Epoch 22/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:33:48 - INFO - Epoch 22/95 | Train Loss: 0.6920 | Train Acc: 0.8671
+25-05-23 12:33:48 - INFO - Starting the validation
+25-05-23 12:33:48 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:33:55 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:34:15 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:34:23 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:34:38 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:34:53 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:35:02 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:35:18 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:35:25 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:35:40 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:35:54 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:35:56 - INFO - Validation Loss: 0.4559 | Validation Acc: 0.8861
+25-05-23 12:35:56 - INFO - Epoch 23/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:36:25 - INFO - Epoch 23/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:37:02 - INFO - Epoch 23/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:37:30 - INFO - Epoch 23/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:38:08 - INFO - Epoch 23/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:38:35 - INFO - Epoch 23/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:39:13 - INFO - Epoch 23/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:39:40 - INFO - Epoch 23/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:40:19 - INFO - Epoch 23/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:40:50 - INFO - Epoch 23/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:41:23 - INFO - Epoch 23/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:41:26 - INFO - Epoch 23/95 | Train Loss: 0.6749 | Train Acc: 0.8702
+25-05-23 12:41:26 - INFO - Starting the validation
+25-05-23 12:41:27 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:41:43 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:41:53 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:42:07 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:42:23 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:42:30 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:42:48 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:42:54 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:43:12 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:43:18 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:43:37 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:43:38 - INFO - Validation Loss: 0.4566 | Validation Acc: 0.8862
+25-05-23 12:43:38 - INFO - Epoch 24/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:44:07 - INFO - Epoch 24/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:44:40 - INFO - Epoch 24/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:45:10 - INFO - Epoch 24/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:45:47 - INFO - Epoch 24/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:46:18 - INFO - Epoch 24/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:46:50 - INFO - Epoch 24/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:47:26 - INFO - Epoch 24/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:47:53 - INFO - Epoch 24/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:48:28 - INFO - Epoch 24/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:48:56 - INFO - Epoch 24/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:49:09 - INFO - Epoch 24/95 | Train Loss: 0.6505 | Train Acc: 0.8735
+25-05-23 12:49:09 - INFO - Starting the validation
+25-05-23 12:49:09 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:49:15 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:49:32 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:49:40 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:49:58 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:50:04 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:50:22 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:50:28 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:50:46 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:50:56 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:51:09 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:51:10 - INFO - Validation Loss: 0.4593 | Validation Acc: 0.8861
+25-05-23 12:51:10 - INFO - Epoch 25/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:51:40 - INFO - Epoch 25/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:52:17 - INFO - Epoch 25/95 | Training step: 100/509 | 19.65 %
+25-05-23 12:52:44 - INFO - Epoch 25/95 | Training step: 150/509 | 29.47 %
+25-05-23 12:53:21 - INFO - Epoch 25/95 | Training step: 200/509 | 39.29 %
+25-05-23 12:53:55 - INFO - Epoch 25/95 | Training step: 250/509 | 49.12 %
+25-05-23 12:54:25 - INFO - Epoch 25/95 | Training step: 300/509 | 58.94 %
+25-05-23 12:55:00 - INFO - Epoch 25/95 | Training step: 350/509 | 68.76 %
+25-05-23 12:55:29 - INFO - Epoch 25/95 | Training step: 400/509 | 78.59 %
+25-05-23 12:56:04 - INFO - Epoch 25/95 | Training step: 450/509 | 88.41 %
+25-05-23 12:56:40 - INFO - Epoch 25/95 | Training step: 500/509 | 98.23 %
+25-05-23 12:56:43 - INFO - Epoch 25/95 | Train Loss: 0.6637 | Train Acc: 0.8714
+25-05-23 12:56:43 - INFO - Starting the validation
+25-05-23 12:56:44 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 12:56:50 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 12:57:09 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 12:57:16 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 12:57:33 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 12:57:45 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 12:57:57 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 12:58:08 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 12:58:21 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 12:58:37 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 12:58:45 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 12:58:45 - INFO - Validation Loss: 0.4565 | Validation Acc: 0.8847
+25-05-23 12:58:46 - INFO - Epoch 26/95 | Training step: 0/509 | 0.00 %
+25-05-23 12:59:17 - INFO - Epoch 26/95 | Training step: 50/509 | 9.82 %
+25-05-23 12:59:55 - INFO - Epoch 26/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:00:22 - INFO - Epoch 26/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:00:57 - INFO - Epoch 26/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:01:30 - INFO - Epoch 26/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:02:01 - INFO - Epoch 26/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:02:34 - INFO - Epoch 26/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:03:07 - INFO - Epoch 26/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:03:37 - INFO - Epoch 26/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:04:17 - INFO - Epoch 26/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:04:20 - INFO - Epoch 26/95 | Train Loss: 0.6499 | Train Acc: 0.8735
+25-05-23 13:04:20 - INFO - Starting the validation
+25-05-23 13:04:21 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:04:27 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:04:45 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:04:54 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:05:09 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:05:16 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:05:36 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:05:42 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:05:59 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:06:08 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:06:23 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:06:24 - INFO - Validation Loss: 0.4534 | Validation Acc: 0.8873
+25-05-23 13:06:24 - INFO - Epoch 27/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:06:53 - INFO - Epoch 27/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:07:31 - INFO - Epoch 27/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:07:58 - INFO - Epoch 27/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:08:34 - INFO - Epoch 27/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:09:04 - INFO - Epoch 27/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:09:38 - INFO - Epoch 27/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:10:12 - INFO - Epoch 27/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:10:44 - INFO - Epoch 27/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:11:25 - INFO - Epoch 27/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:11:52 - INFO - Epoch 27/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:12:02 - INFO - Epoch 27/95 | Train Loss: 0.6438 | Train Acc: 0.8788
+25-05-23 13:12:02 - INFO - Starting the validation
+25-05-23 13:12:02 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:12:11 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:12:29 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:12:36 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:12:55 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:13:01 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:13:17 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:13:25 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:13:42 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:13:48 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:14:06 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:14:06 - INFO - Validation Loss: 0.4524 | Validation Acc: 0.8847
+25-05-23 13:14:06 - INFO - Epoch 28/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:14:36 - INFO - Epoch 28/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:15:11 - INFO - Epoch 28/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:15:39 - INFO - Epoch 28/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:16:15 - INFO - Epoch 28/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:16:45 - INFO - Epoch 28/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:17:17 - INFO - Epoch 28/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:17:55 - INFO - Epoch 28/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:18:24 - INFO - Epoch 28/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:18:58 - INFO - Epoch 28/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:19:28 - INFO - Epoch 28/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:19:34 - INFO - Epoch 28/95 | Train Loss: 0.6299 | Train Acc: 0.8816
+25-05-23 13:19:34 - INFO - Starting the validation
+25-05-23 13:19:35 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:19:47 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:20:01 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:20:12 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:20:27 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:20:36 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:20:52 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:20:59 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:21:19 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:21:25 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:21:40 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:21:41 - INFO - Validation Loss: 0.4520 | Validation Acc: 0.8861
+25-05-23 13:21:41 - INFO - Epoch 29/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:22:11 - INFO - Epoch 29/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:22:48 - INFO - Epoch 29/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:23:16 - INFO - Epoch 29/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:23:52 - INFO - Epoch 29/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:24:22 - INFO - Epoch 29/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:24:59 - INFO - Epoch 29/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:25:26 - INFO - Epoch 29/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:26:06 - INFO - Epoch 29/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:26:33 - INFO - Epoch 29/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:27:10 - INFO - Epoch 29/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:27:13 - INFO - Epoch 29/95 | Train Loss: 0.6562 | Train Acc: 0.8743
+25-05-23 13:27:13 - INFO - Starting the validation
+25-05-23 13:27:13 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:27:29 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:27:37 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:27:55 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:28:01 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:28:18 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:28:24 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:28:43 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:28:50 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:29:08 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:29:14 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:29:15 - INFO - Validation Loss: 0.4555 | Validation Acc: 0.8876
+25-05-23 13:29:15 - INFO - Epoch 30/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:29:53 - INFO - Epoch 30/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:30:27 - INFO - Epoch 30/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:30:56 - INFO - Epoch 30/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:31:34 - INFO - Epoch 30/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:32:01 - INFO - Epoch 30/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:32:35 - INFO - Epoch 30/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:33:09 - INFO - Epoch 30/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:33:43 - INFO - Epoch 30/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:34:15 - INFO - Epoch 30/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:34:44 - INFO - Epoch 30/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:34:57 - INFO - Epoch 30/95 | Train Loss: 0.6540 | Train Acc: 0.8756
+25-05-23 13:34:57 - INFO - Starting the validation
+25-05-23 13:34:57 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:35:03 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:35:21 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:35:29 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:35:45 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:35:55 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:36:09 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:36:18 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:36:34 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:36:44 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:36:58 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:36:59 - INFO - Validation Loss: 0.4529 | Validation Acc: 0.8870
+25-05-23 13:36:59 - INFO - Epoch 31/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:37:30 - INFO - Epoch 31/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:38:06 - INFO - Epoch 31/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:38:33 - INFO - Epoch 31/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:39:10 - INFO - Epoch 31/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:39:44 - INFO - Epoch 31/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:40:12 - INFO - Epoch 31/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:40:48 - INFO - Epoch 31/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:41:14 - INFO - Epoch 31/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:41:52 - INFO - Epoch 31/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:42:18 - INFO - Epoch 31/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:42:28 - INFO - Epoch 31/95 | Train Loss: 0.6563 | Train Acc: 0.8781
+25-05-23 13:42:28 - INFO - Starting the validation
+25-05-23 13:42:28 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:42:39 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:42:45 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:43:07 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:43:13 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:43:31 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:43:40 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:43:54 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:44:03 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:44:18 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:44:29 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:44:31 - INFO - Validation Loss: 0.4549 | Validation Acc: 0.8868
+25-05-23 13:44:31 - INFO - Epoch 32/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:45:02 - INFO - Epoch 32/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:45:29 - INFO - Epoch 32/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:46:06 - INFO - Epoch 32/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:46:32 - INFO - Epoch 32/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:47:09 - INFO - Epoch 32/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:47:39 - INFO - Epoch 32/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:48:09 - INFO - Epoch 32/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:48:46 - INFO - Epoch 32/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:49:14 - INFO - Epoch 32/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:49:47 - INFO - Epoch 32/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:49:51 - INFO - Epoch 32/95 | Train Loss: 0.6393 | Train Acc: 0.8772
+25-05-23 13:49:51 - INFO - Starting the validation
+25-05-23 13:49:51 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:50:07 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:50:17 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:50:31 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:50:43 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:50:54 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:51:06 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:51:19 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:51:30 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:51:43 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:51:50 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:51:50 - INFO - Validation Loss: 0.4532 | Validation Acc: 0.8857
+25-05-23 13:51:51 - INFO - Epoch 33/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:52:25 - INFO - Epoch 33/95 | Training step: 50/509 | 9.82 %
+25-05-23 13:52:59 - INFO - Epoch 33/95 | Training step: 100/509 | 19.65 %
+25-05-23 13:53:29 - INFO - Epoch 33/95 | Training step: 150/509 | 29.47 %
+25-05-23 13:54:04 - INFO - Epoch 33/95 | Training step: 200/509 | 39.29 %
+25-05-23 13:54:31 - INFO - Epoch 33/95 | Training step: 250/509 | 49.12 %
+25-05-23 13:55:08 - INFO - Epoch 33/95 | Training step: 300/509 | 58.94 %
+25-05-23 13:55:36 - INFO - Epoch 33/95 | Training step: 350/509 | 68.76 %
+25-05-23 13:56:10 - INFO - Epoch 33/95 | Training step: 400/509 | 78.59 %
+25-05-23 13:56:39 - INFO - Epoch 33/95 | Training step: 450/509 | 88.41 %
+25-05-23 13:57:14 - INFO - Epoch 33/95 | Training step: 500/509 | 98.23 %
+25-05-23 13:57:17 - INFO - Epoch 33/95 | Train Loss: 0.6552 | Train Acc: 0.8734
+25-05-23 13:57:17 - INFO - Starting the validation
+25-05-23 13:57:18 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 13:57:34 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 13:57:44 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 13:57:57 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 13:58:10 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 13:58:20 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 13:58:36 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 13:58:44 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 13:59:01 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 13:59:08 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 13:59:24 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 13:59:24 - INFO - Validation Loss: 0.4536 | Validation Acc: 0.8856
+25-05-23 13:59:24 - INFO - Epoch 34/95 | Training step: 0/509 | 0.00 %
+25-05-23 13:59:53 - INFO - Epoch 34/95 | Training step: 50/509 | 9.82 %
+25-05-23 14:00:31 - INFO - Epoch 34/95 | Training step: 100/509 | 19.65 %
+25-05-23 14:00:57 - INFO - Epoch 34/95 | Training step: 150/509 | 29.47 %
+25-05-23 14:01:34 - INFO - Epoch 34/95 | Training step: 200/509 | 39.29 %
+25-05-23 14:02:04 - INFO - Epoch 34/95 | Training step: 250/509 | 49.12 %
+25-05-23 14:02:37 - INFO - Epoch 34/95 | Training step: 300/509 | 58.94 %
+25-05-23 14:03:12 - INFO - Epoch 34/95 | Training step: 350/509 | 68.76 %
+25-05-23 14:03:41 - INFO - Epoch 34/95 | Training step: 400/509 | 78.59 %
+25-05-23 14:04:19 - INFO - Epoch 34/95 | Training step: 450/509 | 88.41 %
+25-05-23 14:04:45 - INFO - Epoch 34/95 | Training step: 500/509 | 98.23 %
+25-05-23 14:04:56 - INFO - Epoch 34/95 | Train Loss: 0.6217 | Train Acc: 0.8847
+25-05-23 14:04:56 - INFO - Starting the validation
+25-05-23 14:04:57 - INFO - Validation step: 0/503 | 0.00 %
+25-05-23 14:05:06 - INFO - Validation step: 50/503 | 9.94 %
+25-05-23 14:05:20 - INFO - Validation step: 100/503 | 19.88 %
+25-05-23 14:05:30 - INFO - Validation step: 150/503 | 29.82 %
+25-05-23 14:05:46 - INFO - Validation step: 200/503 | 39.76 %
+25-05-23 14:05:55 - INFO - Validation step: 250/503 | 49.70 %
+25-05-23 14:06:11 - INFO - Validation step: 300/503 | 59.64 %
+25-05-23 14:06:17 - INFO - Validation step: 350/503 | 69.58 %
+25-05-23 14:06:35 - INFO - Validation step: 400/503 | 79.52 %
+25-05-23 14:06:41 - INFO - Validation step: 450/503 | 89.46 %
+25-05-23 14:07:00 - INFO - Validation step: 500/503 | 99.40 %
+25-05-23 14:07:00 - INFO - Validation Loss: 0.4494 | Validation Acc: 0.8848
+25-05-23 14:07:00 - INFO - Early stopping triggered at epoch 34. No improvement in 5 epochs.
+25-05-23 14:07:01 - INFO - Loss plot saved to ./outputs/25-05-23-09-57-35/loss_plot.png
+25-05-23 14:07:01 - INFO - Accuracy plot saved to ./outputs/25-05-23-09-57-35/acc_plot.png
+25-05-23 14:07:01 - INFO - Inference stats saved to ./outputs/25-05-23-09-57-35/inference_stats.txt
+25-05-23 14:07:02 - INFO - Checkpoint saved to ./outputs/25-05-23-09-57-35/model_checkpoint.pth

@@ -1,0 +1,2 @@
+Total Parameters: 21385220
+Best Inference Time (s): 0.005372
