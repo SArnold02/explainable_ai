@@ -297,7 +297,7 @@ class Trainer(torch.nn.Module):
         self.val_accs.append(val_acc)
 
         # Calculate the consistency if possible
-        if len(self.validation_part_annotations) > 0:
+        if len(self.validation_activation_maps) > 0:
             # concatenate maps
             activation_maps = torch.cat(self.validation_activation_maps, dim=0).to(device=self.device)
             part_annotations = torch.cat(self.validation_part_annotations, dim=0).to(device=self.device)
