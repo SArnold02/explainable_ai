@@ -49,7 +49,7 @@ class Trainer(torch.nn.Module):
         self.criterion = criterion if criterion is not None else nn.CrossEntropyLoss()
         
         # Setup lr scheduler
-        self.scheduler = StepLR(self.optimizer, step_size=self.lr_schedule, gamma=0.1)
+        self.scheduler = StepLR(self.optimizer, step_size=self.lr_schedule, gamma=arguments.gamma)
 
         # Prepare data loaders
         self.train_loader = (

@@ -26,6 +26,7 @@ def parse_arguments():
     parser.add_argument("--momentum", type=float, default=0.9)
     parser.add_argument("--epochs", type=int, default=10)
     parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--gamma", type=float, default=0.1)
 
     parser.add_argument("--print_every", type=int, default=100)
     parser.add_argument("--output_path", type=str, default="./outputs")
