@@ -16,6 +16,7 @@ def parse_arguments():
     # Training and data arguments
     parser.add_argument("--dataset", type=str, default="cub")
     parser.add_argument("--checkpoint", type=str, default=None)
+    parser.add_argument("--resnet_checkpoint", type=str, default=None)
 
     parser.add_argument("--download_data", action="store_true")
     parser.add_argument("--batch_size", type=int, default=8)
@@ -30,6 +31,22 @@ def parse_arguments():
     parser.add_argument("--output_path", type=str, default="./outputs")
     parser.add_argument("--patience", type=int, default=5)
     parser.add_argument("--lr_schedule", type=int, default=10)
+
+    parser.add_argument("--image_size", type=tuple[int, int], default=(224, 224))
+    parser.add_argument("--box_size", type=tuple[int, int], default=(78, 78))
+
+    # ProtoTree specific options
+    parser.add_argument("--num_features", type=int, default=256)
+    parser.add_argument("--depth", type=int, default=9)
+    parser.add_argument("--W1", type=int, default=1)
+    parser.add_argument("--H1", type=int, default=1)
+    parser.add_argument("--mu", type=float, default=0.8)
+    parser.add_argument("--num_parts", type=int, default=15)
+    parser.add_argument("--log_probabilities", action="store_true")
+    parser.add_argument("--kont_algorithm", action="store_true")
+    parser.add_argument("--lr_net", type=float, default=1e-5)
+    parser.add_argument("--lr_block", type=float, default=0.001)
+    parser.add_argument("--freeze_epoch", type=int, default=30)
 
     return parser.parse_args()
 
