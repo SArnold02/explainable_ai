@@ -1,10 +1,14 @@
 from argparse import Namespace
+from copy import deepcopy
 import torch
 import torchvision
 from torchvision.models import ResNet34_Weights
 
 from tasks.baseline.task import ResNet
 from tasks.prototree.model import ProtoTree
+from tasks.prototree.utils.project import project_with_class_constraints
+from tasks.prototree.utils.upsample import upsample
+from tasks.prototree.utils.visualize import gen_vis
 from .tree_trainer import ProtoTreeTrainer
 from .custom_cub_dataset import Cub2011, DEFAULT_VAL_TRANSFORM, DEFAULT_TRAIN_TRANSFORM
 
@@ -93,7 +97,7 @@ def run_prototree_train(arguments, train_dataset, val_dataset):
     model = get_pre_trained_prototree(arguments)
 
     # Build the loss and the optimizer for the tree
-    criterion = torch.nn.NLLLoss()
+    criterion = torch.nn.CrossEntropyLoss()
     optimizer, params_to_freeze = get_optimizer(model, arguments)
 
     # Create the trainer
@@ -133,6 +137,26 @@ def run_prototree_eval(arguments, val_dataset):
         val_dataset = val_dataset,
         arguments = arguments,
     )
+
+    # Create data loaders for the next operations
+    if arguments.dataset == "cub":
+        project_dataset = torchvision.datasets.ImageFolder('data/CUB_200_2011/dataset/train_crop', transform=DEFAULT_VAL_TRANSFORM)
+    else:
+        project_dataset = torchvision.datasets.ImageFolder('data/cars/dataset/train', transform=DEFAULT_VAL_TRANSFORM)
+    classes = project_dataset.classes
+
+    project_loader = torch.utils.data.DataLoader(
+        project_dataset,
+        batch_size=arguments.batch_size
+    )
+
+    # Project, upsample and visualize the tree
+    project_info, tree = project_with_class_constraints(deepcopy(model), project_loader, arguments.device, trainer.logger)
+    project_info = upsample(tree, project_info, project_loader, arguments, trainer.logger)
+    gen_vis(tree, arguments, classes)
+
+    # Replace the tree in the trainer
+    trainer.model = tree
 
     # Start the evaluation
     trainer.evaluate(

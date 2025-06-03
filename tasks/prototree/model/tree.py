@@ -91,6 +91,16 @@ class ProtoTree(nn.Module):
 
         return out, info
     
+    def forward_partial(self, tree_input: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor, dict]:
+        # Perform a forward pass with the conv net
+        features = self._net(tree_input)
+        features = self._add_on(features)
+
+        # Use the features to compute the distances from the prototypes
+        distances = self.prototype_layer(features)
+
+        return features, distances, dict(self._out_map)
+    
     def root(self) -> Node:
         return self._root
 

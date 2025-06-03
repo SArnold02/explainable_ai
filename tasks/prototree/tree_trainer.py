@@ -30,8 +30,9 @@ class ProtoTreeTrainer(Trainer):
         self.freeze_epoch = arguments.freeze_epoch
 
         # Setup specific lr scheduler
-        milestones = [i for i in range(35, arguments.epochs, 10)]
-        self.scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer=optimizer, milestones=milestones, gamma=arguments.gamma)
+        milestones = [i for i in range(arguments.freeze_epoch + 15, arguments.epochs, 10)]
+        if optimizer:
+            self.scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer=optimizer, milestones=milestones, gamma=arguments.gamma)
 
     def train_step(self, inputs, targets, **kwargs):
         # Check if need to start the kont algorithm at the start of the epoch
