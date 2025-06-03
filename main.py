@@ -52,8 +52,6 @@ def parse_arguments():
 
     return parser.parse_args()
 
-python3 main.py --task prototree --num_workers 16 --print_every 100 --batch_size 32 --epoch 150 --train_run --depth=9 --resnet_checkpoint ./pre_trained/cub/model_checkpoint.pth --device cuda --lr_net 0.001 --patience 20 --freeze_epoch 30 --lr 0.1 --lr_block 0.1 --lr_net 1e-5 --kont_algorithm
-python main.py --task prototree --num_workers 4 --print_every 100 --batch_size 32 --epoch 60 --depth=9 --kont_algorithm --checkpoint ./outputs/25-05-30-14-27-32/model_checkpoint.pth --device cuda --train_run --lr 0.1 --lr_block 0.1
 def add_dataset_parameters(arguments):
     match arguments.dataset:
         case "cub":
