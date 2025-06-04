@@ -1,1 +1,1 @@
-from tasks.baseline.task import run_baseline
+from tasks.baseline.task import run_baseline, ResNet

@@ -30,3 +30,5 @@ The checkpoint is uploaded with git lfs, to get it, follow the steps:
 - git lfs install
 
 - git lfs fetch --all
+
+If the git-lfs doesnt work, the checkpoints can be found here: https://drive.google.com/file/d/1qpS0POWhhvJICibQx-iNClToZsgpvoDn/view?usp=sharing

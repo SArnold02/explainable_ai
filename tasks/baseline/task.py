@@ -68,9 +68,9 @@ def run_baseline_eval(arguments, val_dataset):
         print_every = arguments.print_every,
     )
 
-def run_baseline(arguments, train_dataset, eval_dataset):
+def run_baseline(arguments, train_dataset, val_dataset):
     # Choose the type of run
     if arguments.train_run:
-        run_baseline_train(arguments, train_dataset, eval_dataset)
+        run_baseline_train(arguments, train_dataset, val_dataset)
     else:
-        run_baseline_eval(arguments, eval_dataset)
+        run_baseline_eval(arguments, val_dataset)
